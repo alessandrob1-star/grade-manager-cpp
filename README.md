@@ -66,18 +66,10 @@ In this case, the file will be created and read in the same directory as the exe
 
 ---
 
-## Future Improvements
-
-* Implementation using object-oriented programming
-* Support for a dynamic number of assessments
-* Improved input validation
-* Graphical user interface
-
----
 
 ## Author
 
-Developed as part of a programming course project.
+Alessandro Benevelli
 
 ---
 

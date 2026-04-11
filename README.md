@@ -1,11 +1,11 @@
-# Grade Management System (C++)
+# 🎓 Grade Management System (C++)
 
 ## 📌 Overview
 
 This project is a **Grade Management System** developed in C++.
 It allows users to manage, update, and calculate grades for multiple courses using weighted averages and bonus points.
 
-The system includes file persistence, enabling data to be saved and loaded across program executions.
+The system includes **file persistence**, enabling data to be saved and loaded across program executions.
 
 ---
 
@@ -62,6 +62,8 @@ You can use an absolute path by modifying the constant in the source code.
 ---
 
 ## ▶️ How to Run
+
+Make sure you have a C++ compiler installed (e.g., `g++`).
 
 ### 1. Compile the program
 

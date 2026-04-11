@@ -1,15 +1,15 @@
 # Grade Management System (C++)
 
-## Overview
+## 📌 Overview
 
-This project is a Grade Management System developed in C++.
+This project is a **Grade Management System** developed in C++.
 It allows users to manage, update, and calculate grades for multiple courses using weighted averages and bonus points.
 
 The system includes file persistence, enabling data to be saved and loaded across program executions.
 
 ---
 
-## Features
+## 🚀 Features
 
 * Update grades for multiple courses
 * Assign weights to each assessment
@@ -20,16 +20,16 @@ The system includes file persistence, enabling data to be saved and loaded acros
 
 ---
 
-## Technologies Used
+## 🛠 Technologies Used
 
 * C++
-* Standard Template Library (map, vector)
-* File handling (fstream)
-* Input/output formatting (iomanip, sstream)
+* Standard Template Library (`map`, `vector`)
+* File handling (`fstream`)
+* Input/output formatting (`iomanip`, `sstream`)
 
 ---
 
-## Program Structure
+## 🧩 Program Structure
 
 Each course includes:
 
@@ -39,15 +39,15 @@ Each course includes:
 
 The final grade is calculated as:
 
-> weighted average + bonus (maximum 100%)
+> **weighted average + bonus (maximum 100%)**
 
 ---
 
-## File Configuration
+## 📁 File Configuration
 
 The program stores data in a file.
 
-**Default (recommended):**
+### ✅ Default (recommended)
 
 ```cpp
 const string GRADES_FILE = "grades.txt";
@@ -55,20 +55,21 @@ const string GRADES_FILE = "grades.txt";
 
 The file will be created and read in the same directory as the executable.
 
-**Optional:**
-You can use an absolute path if needed by modifying the constant in the source code.
+### ⚙️ Optional
+
+You can use an absolute path by modifying the constant in the source code.
 
 ---
 
-## How to Run
+## ▶️ How to Run
 
-1. Compile the program:
+### 1. Compile the program
 
 ```bash
 g++ main.cpp -o grades
 ```
 
-2. Run the executable:
+### 2. Run the executable
 
 ```bash
 ./grades
@@ -76,8 +77,9 @@ g++ main.cpp -o grades
 
 ---
 
-## Example Output
+## 🧪 Example Output
 
+```text
 === GRADES ===
 
 COMP-1001 - Technical English
@@ -106,25 +108,28 @@ A4: 0.00% (0%)
 Average: 100.00%
 Bonus: +5.00%
 Final: 100.00%
+```
 
-## Academic Context
+---
 
-This project was developed as part of coursework at OPIT
+## 🎓 Academic Context
+
+This project was developed as part of coursework at **OPIT**
 and received positive feedback from the instructor.
 
 ---
 
-## Author
+## 👨‍💻 Author
 
-Alessandro Benevelli
+**Alessandro Benevelli**
 
 ---
 
-## Notes
+## 🧠 Notes
 
 This project demonstrates:
 
-* Use of data structures (map, vector)
+* Use of data structures (`map`, `vector`)
 * File persistence
 * Modular programming
 * Basic input validation and user interaction
